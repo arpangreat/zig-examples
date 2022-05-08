@@ -1,0 +1,2 @@
+3876712 10629215 1652027516267658915 f0fe8cd7b7d79a40bdadbd6b397f240f /home/arpangreat/zig-examples/firstEp/zig-cache/o/3ccefbbe7cc866c00cf00bec44273d93/build.o
+62064 7891073 1652026749607500764 228c45bd81ed6cf0982c0776b83a7109 /home/arpangreat/.cache/zig/o/7f56758ad62289404c26bcaf707f11b1/libcompiler_rt.a
