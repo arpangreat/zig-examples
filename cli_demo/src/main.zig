@@ -27,7 +27,6 @@ pub fn main() !void {
         return err;
     };
     defer res.deinit();
-
     if (res.args.help)
         debug.print("--help\n", .{});
     if (res.args.number) |n|
@@ -43,4 +42,5 @@ test "simple test" {
     defer list.deinit(); // try commenting this out and see if zig detects the memory leak!
     try list.append(42);
     try std.testing.expectEqual(@as(i32, 42), list.pop());
+    // try commenting this out and see if zig detects the memory leak!
 }

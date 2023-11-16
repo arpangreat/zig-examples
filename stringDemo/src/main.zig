@@ -6,7 +6,7 @@ pub fn main() anyerror!void {
     std.debug.print("{d}\n", .{bytes.len});
     std.debug.print("{c}\n", .{bytes[1]});
     std.debug.print("{d}\n", .{bytes[5]});
-    std.debug.print("{}\n", .{'e' ==  '\x65'});
+    std.debug.print("{}\n", .{'e' == '\x65'});
     std.debug.print("{d}\n", .{'\u{1f4a9}'});
     std.debug.print("{d}\n", .{'☺'});
     std.debug.print("{}\n", .{std.mem.eql(u8, "hello", "h\x65ello")});
